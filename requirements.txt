@@ -4,29 +4,14 @@ python-multipart>=0.0.9
 faster-whisper>=1.0.3
 groq==0.4.1
 python-dotenv>=1.0.0
+pydantic==1.10.13
 
 # Database
 psycopg2-binary>=2.9.0
 sqlalchemy>=1.4.0,<2.0.0
-alembic>=1.13.0
 
 # Authentication
 clerk-sdk-python>=0.1.0
-
-# Email
-sendgrid>=6.10.0
-
-# Exports
-reportlab>=4.0.0
-python-docx>=1.1.0
-jinja2>=3.1.0
-boto3>=1.34.0
-
-# WebSockets for real-time
-websockets>=12.0
-
-# Explicit pydantic pin
-pydantic==1.10.13
 
 # Additional utilities
 pydantic>=2.0.0
