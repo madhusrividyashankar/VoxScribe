@@ -2,6 +2,7 @@ services:
   - type: web
     name: voxscribe
     runtime: python
+    pythonVersion: 3.13
     buildCommand: pip install -r requirements.txt
     startCommand: cd backend && python main.py
     envVars:
