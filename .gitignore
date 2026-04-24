@@ -1,0 +1,5 @@
+backend/.env
+backend/voicenote.db
+backend/__pycache__/
+backend/*.log
+*.pyc
