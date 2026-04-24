@@ -2,7 +2,7 @@
 # PostgreSQL setup with SQLAlchemy ORM (with SQLite fallback for development)
 
 import os
-from sqlalchemy import create_engine, Column, String, Integer, Boolean, DateTime, Text, ForeignKey, UUID, Date, JSON
+from sqlalchemy import create_engine, Column, String, Integer, Boolean, DateTime, Text, ForeignKey, Date, JSON
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 from datetime import datetime
