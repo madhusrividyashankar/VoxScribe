@@ -12,6 +12,7 @@ sqlalchemy>=1.4.0,<2.0.0
 
 # Authentication
 clerk-sdk-python>=0.1.0
+python-jose[cryptography]>=3.3.0
 
 # Compatibility
 pydantic==1.10.13
